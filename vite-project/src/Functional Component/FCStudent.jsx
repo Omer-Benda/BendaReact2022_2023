@@ -16,7 +16,7 @@ function cbhTxt(e){
 if (75<props.grade) {
   
   return (
-    <div>
+    <div style={{fontSize:20, color:'red'}}>
       Studant <br />
       id={props.id}<br />
       name={props.name} <br />

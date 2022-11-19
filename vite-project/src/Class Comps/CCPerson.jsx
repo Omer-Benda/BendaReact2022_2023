@@ -25,7 +25,7 @@ export default class CCPerson extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container" style={{border:'dashed green 2px',padding: 10 }}>
         <h3> my name is {this.props.name}</h3>
         <h4> my grade is {this.state.grade}</h4>
         <h3>my age is {this.props.age} </h3>
